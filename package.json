@@ -1,0 +1,32 @@
+{
+  "name": "@pricewin/pi",
+  "version": "1.0.0",
+  "description": "PriceWin for Pi: live hotel and flight prices compared across Booking.com, Agoda, Trip.com and Traveloka, in USD, through the PriceWin MCP server, with the pricewin-travel-search skill.",
+  "keywords": [
+    "pi-package",
+    "mcp",
+    "travel",
+    "hotels",
+    "flights",
+    "price-comparison"
+  ],
+  "homepage": "https://www.price.win/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriceDotWin/pricewin-pi.git"
+  },
+  "bugs": "https://mcp.price.win/support",
+  "author": "PriceWin <support@price.win>",
+  "license": "MIT",
+  "files": [
+    "extensions",
+    "skills"
+  ],
+  "pi": {
+    "extensions": ["./extensions/pricewin.ts"],
+    "skills": ["./skills"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
