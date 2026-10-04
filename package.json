@@ -1,6 +1,6 @@
 {
   "name": "@pricewin/pi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PriceWin for Pi: live hotel and flight prices compared across Booking.com, Agoda, Trip.com and Traveloka, in USD, through the PriceWin MCP server, with the pricewin-travel-search skill.",
   "keywords": [
     "pi-package",
