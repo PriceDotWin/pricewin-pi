@@ -4,7 +4,7 @@ import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 // every load. A user's own mcp.json entry named "pricewin" takes precedence.
 export default function (pi: ExtensionAPI) {
   pi.registerMcpServer("pricewin", {
-    url: "https://mcp.price.win/mcp",
+    url: "https://mcp.price.win/mcp?src=pi",
     description:
       "Live hotel and flight prices compared across Booking.com, Agoda, Trip.com and Traveloka, in USD",
   });
